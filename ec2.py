@@ -142,7 +142,7 @@ from boto import route53
 from boto import sts
 import six
 
-from ansible.module_utils import ec2 as ec2_utils
+#from ansible.module_utils import ec2 as ec2_utils
 
 HAS_BOTO3 = False
 try:
